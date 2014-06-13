@@ -16,6 +16,8 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
+Route::get('markup', ['uses' => 'MarkupController@index']);
+Route::get('markup/admin', ['uses' => 'MarkupController@admin']);
 
 Route::resource('roles', 'RolesController');
 
