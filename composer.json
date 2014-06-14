@@ -7,7 +7,10 @@
 		"laravel/framework": "4.2.*"
 	},
 	"require-dev": {
-		"way/generators": "1.*"
+		"way/generators": "1.*",
+		"barryvdh/laravel-ide-helper": "1.*",
+		"barryvdh/laravel-debugbar": "dev-master",
+		"fzaninotto/faker": "1.4.*@dev"
 	},
 	"autoload": {
 		"classmap": [
@@ -35,5 +38,8 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-	"minimum-stability": "stable"
+	"minimum-stability": "stable",
+	"post-update-cmd": [
+		"php artisan debugbar:publish"
+	]
 }

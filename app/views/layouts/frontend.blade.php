@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
 	<head>
+		<title>Jhekasoft</title>
 		<meta charset="utf-8">
+		<link rel="shortcut icon" href="{{ URL::to('/') }}/favicon-{{ App::environment() }}.ico">
 		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
 		<style>
 			table form { margin-bottom: 0; }

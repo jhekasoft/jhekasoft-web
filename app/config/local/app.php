@@ -14,5 +14,10 @@ return array(
 	*/
 
 	'debug' => true,
+	
+	'providers' => array(
+		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider',
+	),
 
 );
