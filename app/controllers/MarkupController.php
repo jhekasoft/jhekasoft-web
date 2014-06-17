@@ -11,7 +11,7 @@ class MarkupController extends BaseController {
 	 *
 	 * @return Response
 	 */
-	public function index()
+	public function getIndex()
 	{
 		$faker = Faker\Factory::create('uk_UA');
 		
@@ -36,7 +36,7 @@ class MarkupController extends BaseController {
 	 *
 	 * @return Response
 	 */
-	public function admin()
+	public function getAdmin()
 	{
 		return View::make('markup.admin');
 	}
