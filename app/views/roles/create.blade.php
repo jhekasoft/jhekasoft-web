@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>Create Role</h1>
+<h1 class="page-header">Create Role</h1>
 
 {{ Form::open(array('route' => 'roles.store')) }}
 	<ul>

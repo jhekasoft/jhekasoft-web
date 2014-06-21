@@ -1,7 +1,7 @@
-@extends('layouts.frontend')
+@extends('layouts.backend')
 
 @section('main')
 
-<h1>Admin</h1>
+<h1 class="page-header">Admin</h1>
 
 @stop

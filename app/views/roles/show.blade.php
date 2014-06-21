@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>Show Role</h1>
+<h1 class="page-header">Show Role</h1>
 
 <p>{{ link_to_route('roles.index', 'Return to all roles') }}</p>
 

@@ -1,1 +1,1 @@
-@extends('layouts.frontend')
+@extends('layouts.backend')

@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>Котячий тест</h1>
+<h1 class="page-header">Котячий тест</h1>
 
 <p>{{ $city }}</p>
 <p>{{ $fullname }}</p>

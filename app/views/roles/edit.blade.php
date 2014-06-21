@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>Edit Role</h1>
+<h1 class="page-header">Edit Role</h1>
 {{ Form::model($role, array('method' => 'PATCH', 'route' => array('roles.update', $role->id))) }}
 	<ul>
         <li>

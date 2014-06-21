@@ -2,7 +2,7 @@
 
 @section('main')
 
-<h1>All Roles</h1>
+<h1 class="page-header">All Roles</h1>
 
 <p>{{ link_to_route('roles.create', 'Add new role') }}</p>
 
