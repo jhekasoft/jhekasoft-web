@@ -31,3 +31,5 @@ Route::resource('tags', 'TagsController');
 Route::resource('offers', 'OffersController');
 
 Route::resource('comments', 'CommentsController');
+
+Route::resource('posts', 'PostsController');
